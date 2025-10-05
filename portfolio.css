@@ -4,7 +4,7 @@ background: linear-gradient( -90deg,#143045 ,#0d1f2d, #071118);
 color: #fae1df;
 }
 header{
-background: linear-gradient( -90deg, #071118, #0d1f2d,  #143045);
+background: linear-gradient(360deg, #071118, #0d1f2d,  #143045);
  height: 50px;
 margin: 20px;
 border: 10px;
@@ -171,5 +171,6 @@ font-size: 250px;
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
+
 
 
