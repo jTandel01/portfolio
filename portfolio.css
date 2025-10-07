@@ -1,6 +1,8 @@
 
 body{
 background-image: url(dark-geometric-background-with-copy-space.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 color: #fae1df;
 }
 header{
@@ -213,6 +215,12 @@ cursor:grab;
 }
 
 @media screen and (max-width: 455px) {
+    body{
+background-image: url(dark-geometric-background-with-copy-space.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #fae1df;
+}
 a
   {
     text-decoration: none;
@@ -244,6 +252,7 @@ header {
     margin-left: 70px;
     font-size: 150px;
     cursor: grab;
+    opacity: 0;
 }
 article {
     margin-left: 70px;
@@ -284,8 +293,14 @@ article {
     margin-left: 5px;
 }
 }
-@media screen and (min-width: 1000px) 
+@media screen and (max-width: 1080px) 
 {
+    body{
+background-image: url(dark-geometric-background-with-copy-space.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #fae1df;
+}
 .cont {
     margin-left: 200px;
     display: flex
@@ -311,14 +326,13 @@ article {
     text-shadow: 0px 0px 10px;
     font-size: 30px;
 }
-face {
+.face {
     float: right;
     margin-right: 350px;
     font-size: 250px;
     cursor: grab;
     margin-top: 90px;
     font-size: 270px;
- opacity: 0;
 }
 .ball
 {
@@ -352,6 +366,11 @@ face {
     left: 0;
 }
 }
+.ball
+{
+opacity: 0;
+}
+
 
 
 
