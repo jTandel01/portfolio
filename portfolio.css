@@ -318,6 +318,7 @@ face {
     cursor: grab;
     margin-top: 90px;
     font-size: 270px;
+ opacity: 0;
 }
 .ball
 {
@@ -351,4 +352,5 @@ face {
     left: 0;
 }
 }
+
 
