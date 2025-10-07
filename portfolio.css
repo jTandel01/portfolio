@@ -1,6 +1,6 @@
 
 body{
-background: linear-gradient( -90deg,#143045 ,#0d1f2d, #071118);
+background-image: url(dark-geometric-background-with-copy-space.jpg);
 color: #fae1df;
 }
 header{
@@ -352,5 +352,6 @@ face {
     left: 0;
 }
 }
+
 
 
